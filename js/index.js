@@ -6,6 +6,7 @@ $(document).ready( function(){
    var cartitems;
    var count;
    var prevcount=0;
+//    var ref=0;
 
 
     $('.card-link.add').click(function(e){
