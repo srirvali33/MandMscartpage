@@ -13,6 +13,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 </head>
 
@@ -25,7 +26,7 @@
                 <span class="bar"></span>
                 <span class="bar"></span>
             </a>
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">MandM's</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -41,7 +42,7 @@
                                 
                                  
                             </ul>
-                            <a href="html/cart.html"><span class="fa fa-cart-plus cart"></span></a>
+                            
                         
                         
                     </div>
@@ -49,7 +50,8 @@
                 </div>
             </nav>
 
-
+            <a href="html/cart.html"><span class="fa fa-cart-plus cart"></span></a>
+            <span class="badge"></span>
 
 
         </div>
@@ -68,12 +70,12 @@
                     <div class="card-body">
                         <h5 class="card-title" id="mini">M&M'S Milk Chocolate MINIS Candy</h5>
                         <select class="form-select" aria-label="Default select example">
-                            <option selected>Quantity</option>
+                            <option selected value="0">Quantity</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
                           </select>
-                        <p class="card-text">$ 14 per lb</p>
+                        <p class="card-text">$<span class="num">14</span>per lb</p>
                         <div class="buttons"> <a href="#" id="add" class="card-link add">Add to cart</a>
                             <a href="#" id="remove" class="card-link Remove">Remove from cart</a></div>
                         
@@ -90,14 +92,14 @@
                     <div class="card-body">
                         <h5 class="card-title" id="Milk">M&M'S Milk Chocolate Candy</h5>
                         <select class="form-select" aria-label="Default select example">
-                            <option selected>Quantity</option>
+                            <option selected value="0">Quantity</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
                           </select>
-                        <p class="card-text">$ 14 per lb</p>
-                        <a href="#" id="add" class="card-link add">Add to cart</a>
-                        <a href="#" id="remove" class="card-link Remove">Remove from cart</a>
+                        <p class="card-text">$<span class="num">15</span>per lb</p>
+                        <div class="buttons"> <a href="#" id="add" class="card-link add">Add to cart</a>
+                            <a href="#" id="remove" class="card-link Remove">Remove from cart</a></div>
                       </div>
 
 
@@ -111,14 +113,14 @@
                     <div class="card-body">
                         <h5 class="card-title" id="lime">M&M'S White Chocolate Key Lime Pie</h5>
                         <select class="form-select" aria-label="Default select example">
-                            <option selected>Quantity</option>
+                            <option selected value="0">Quantity</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
                           </select>
-                        <p class="card-text">$ 9 per lb</p>
-                        <a href="#" id="add" class="card-link add">Add to cart</a>
-                        <a href="#" id="remove" class="card-link Remove">Remove from cart</a>
+                        <p class="card-text">$<span class="num">9</span>per lb</p>
+                        <div class="buttons"> <a href="#" id="add" class="card-link add">Add to cart</a>
+                            <a href="#" id="remove" class="card-link Remove">Remove from cart</a></div>
                       </div>
 
 
@@ -133,14 +135,14 @@
                         <div class="card-body">
                             <h5 class="card-title" id="almond">M&M's Almond Chocolate Candy</h5>
                             <select class="form-select" aria-label="Default select example">
-                                <option selected>Quantity</option>
+                                <option selected value="0">Quantity</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                               </select>
-                            <p class="card-text">$ 16 per lb</p>
-                            <a href="#" id="add" class="card-link add">Add to cart</a>
-                            <a href="#" id="remove" class="card-link Remove">Remove from cart</a>
+                            <p class="card-text">$<span class="num">16</span>per lb</p>
+                            <div class="buttons"> <a href="#" id="add" class="card-link add">Add to cart</a>
+                                <a href="#" id="remove" class="card-link Remove">Remove from cart</a></div>
                           </div>
     
     
@@ -154,14 +156,14 @@
                         <div class="card-body">
                             <h5 class="card-title" id="fudge">M&M'S Fudge Brownie candy</h5>
                             <select class="form-select" aria-label="Default select example">
-                                <option selected>Quantity</option>
+                                <option selected value="0">Quantity</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                               </select>
-                            <p class="card-text">$ 10 per lb</p>
-                            <a href="#" id="add" class="card-link add">Add to cart</a>
-                            <a href="#" id="remove" class="card-link Remove">Remove from cart</a>
+                            <p class="card-text">$<span class="num">16</span>per lb</p>
+                            <div class="buttons"> <a href="#" id="add" class="card-link add">Add to cart</a>
+                                <a href="#" id="remove" class="card-link Remove">Remove from cart</a></div>
                           </div>
     
     
@@ -187,6 +189,7 @@
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
         <script src="js/index.js"></script>
+        
 </body>
 
 </html>

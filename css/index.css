@@ -48,7 +48,7 @@ a span.cart{
     
 } 
 
-.navbar-brand, .navbar-nav .nav-item a{
+.navbar-brand, .navbar-nav .nav-item a, .cart{
 
     color: burlywood;
 
@@ -152,7 +152,29 @@ a span.cart{
     display: inline;
   }
 
-  @media (max-width: 768px) {
+  .navbar-dark .navbar-toggler {
+    color: rgb(41, 10, 10);
+    border-color: #d5d5d5;
+  }
+
+  .navbar-dark .navbar-brand {
+
+    color: burlywood;
+
+  }
+
+  .badge{
+    font-size: small;
+    background-color: burlywood;
+    color: rgb(41, 10, 10);
+    float: right;
+    border-radius: 50%;
+    position: absolute;
+    right: 1.5%;
+    top: 1%;
+  }
+
+  @media (max-width: 1023px)  {
     
     .hamburger {
         display: flex;
@@ -160,11 +182,16 @@ a span.cart{
         cursor: pointer;
       }
 
+      a span.cart {
+        right: 11%;
+        top: 14px;
+      }
+
     #navbar ul {
     flex-direction: column;
-    position: absolute;
-    right: -100%;
-    background-color: aliceblue;
+    position: relative;
+    
+    background-color: rgb(41, 10, 10);
     width: 100%;
     align-items: center;
     transition: right 0.3s ease-in;
@@ -176,12 +203,16 @@ a span.cart{
 
       }
 
-      .menu-slide {
-        right: 0%;
-        transition: right 0.3s ease-in;
-      }
+      
     
     
 
 
   }
+
+  @media (max-width: 767px) {
+    a span.cart {
+      right: 20%;
+    }
+  }
+
