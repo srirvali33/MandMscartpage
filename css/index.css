@@ -165,8 +165,8 @@ a span.cart{
 
   .badge{
     font-size: small;
-    background-color: rgb(216, 216, 8);
-    color: rgb(41, 10, 10);
+    background-color: maroon;
+    color: wheat;
     float: right;
     border-radius: 50%;
     position: absolute;
